@@ -4,7 +4,7 @@
 需要与[lottery-api](https://github.com/flzyup/lottery-api.git)配合使用
 
 ## Screenshot
-
+![](https://github.com/flzyup/rx8-lottery/raw/master/screenshot.gif)
 
 ## Features
 前端基于webpack和threejs实现了如下的功能：
