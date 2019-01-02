@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>年会抽奖程序</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/lottery.css" />
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+	</head>
+	<body>
+		<script src="js/libs/three.js"></script>
+    <script src="js/controls/TrackballControls.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+    <script src="js/renderers/CSS3DRenderer.js"></script>
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-image-carousel" class="gallery blueimp-gallery blueimp-gallery-carousel">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="play-pause"></a>
+    </div>
+    <!-- <div class="blur"></div> -->
+
+    <div>
+      <img src="img/weiba-bw.png" class="logo"/>
+      <div class="title">
+        SAIC ROEWE RX8<br/>荣威俱乐部RX8车友会第一届年会
+      </div>
+      <div class="winner">
+        已获奖名单：
+        <div id="winner-list">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="container"></div>
+
+		<div id="menu">
+      <select id="award-selector">
+      </select>
+			<button id="lottery">抽奖</button>
+    </div>
+    <script src="js/blueimp-gallery.min.js"></script>
+    <!-- <script src="js/lottery.js"></script> -->
+
+    <!-- <script src="./app.bundle.js"></script> -->
+    <!--
+      in the template file you might have manually added a loading the bundle.
+      If you don't have the
+
+      inject: false
+      option in
+
+      new HtmlWebpackPlugin({
+          template: path.join(__dirname, '../src/index.html')
+      }),
+      the bundle will get added again.
+    -->
+	</body>
+</html>
